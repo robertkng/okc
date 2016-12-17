@@ -15,7 +15,7 @@ export default class App extends Component {
 
           <div id="header">
           <h1> robert_ng </h1>
-          <h2> Manhattan, NY • 100% Match </h2>
+          <h2> Manhattan, NY • <span id="match">100% Match</span></h2>
           </div>
 
         </div>
@@ -24,3 +24,5 @@ export default class App extends Component {
     );
   }
 }
+// Perfect Match
+ // Looks like you two will get along
