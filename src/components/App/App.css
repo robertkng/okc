@@ -1,0 +1,17 @@
+#nav {
+  background-color: rgb(18, 75, 168);
+  height: 120px;
+  top: 0%;
+  left: -1px;
+  height: 213px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+
+}
+
+h1, h2 {
+  color: #fafafa;
+  font-style: Courier, monospace;
+  font-weight: 100;
+}
