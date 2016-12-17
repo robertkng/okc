@@ -1,13 +1,18 @@
+html {
+  background-color: #fafafa;
+}
+
 #nav {
   background-color: rgb(18, 75, 168);
   height: 120px;
   top: 0%;
   left: -1px;
-  height: 213px;
+  height: 169px;
   width: 100%;
   margin: 0;
   padding: 10px;
-
+  position: absolute;
+  display: flex;
 }
 
 h1, h2 {
@@ -15,3 +20,25 @@ h1, h2 {
   font-style: Courier, monospace;
   font-weight: 100;
 }
+
+h1 {
+  font-size: 30px;
+  margin-left: -4%;
+  margin-top: 35%;
+}
+
+h2 {
+  font-size: 18px;
+  margin-left: -6%;
+  margin-top: -4%;
+}
+
+#profile {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  padding: 30px;
+  margin-left: -2%;
+}
+
+
