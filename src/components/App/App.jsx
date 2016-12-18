@@ -1,28 +1,26 @@
 import React, { Component } from 'react';
+import Header from '../Header/Header.jsx';
 import './App.css';
 
 export default class App extends Component {
+  constructor() {
+    super();
+
+  }
 
 
   render() {
     return (
       <div id="container">
 
-        <div id="nav">
-          <div id="image">
-          <img src={require('./profile.jpg')} id="profile"/>
-          </div>
+          <Header
 
-          <div id="header">
-          <h1> robert_ng </h1>
-          <h2> Manhattan, NY • <span id="match">100% Match</span></h2>
-          </div>
-
-        </div>
+          />
 
       </div>
     );
   }
 }
+// <span>Perfect Match</span>
 // Perfect Match
  // Looks like you two will get along

@@ -2,7 +2,7 @@ html {
   background-color: #fafafa;
 }
 
-#nav {
+#header {
   background-color: rgb(18, 75, 168);
   height: 120px;
   top: 0%;
@@ -17,21 +17,26 @@ html {
 
 h1, h2 {
   color: #fafafa;
-  font-style: Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
 
 h1 {
-  font-size: 30px;
-  margin-left: -2%;
-  margin-top: 12%;
+  font-size: 34px;
+  margin-left: 10%;
+  margin-top: 40%;
 }
 
 h2 {
   font-size: 18px;
-  margin-left: -2%;
-  margin-top: -2%;
+  margin-left: 9%;
+  margin-top: -8%;
   color: #e4edfd;
+}
+
+#dot {
+  font-size: 10px;
+  opacity: .7;
 }
 
 #match {
@@ -39,29 +44,9 @@ h2 {
   cursor: pointer;
 }
 
-span:after{
-    content:'';
-    position:absolute;
-    bottom:-10px;
-    width:10px;
-    height:10px;
-    border-bottom:5px solid #dfdfdf;
-    border-right:5px solid #dfdfdf;
-    background:#f8f8f8;
-    left:50%;
-    margin-left:-10px;
-    transform:rotate(45deg);
-}
-
-p{
-    /*margin:100px;*/
-    float:left;
-    position:relative;
-    cursor:pointer;
-}
-
-p:hover span{
-    display:block;
+#match: hover span {
+  display: block;
+  border-bottom: 1px solid #e4edfd
 }
 
 #profile {
@@ -69,7 +54,32 @@ p:hover span{
   height: 180px;
   width: 180px;
   padding: 30px;
-  margin-left: -2%;
+  margin-top: 4%;
+  margin-left: 14%;
 }
 
+#round-icon {
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    box-shadow: 0 0 0 1.5px #00d280;
+    border-radius: 100%;
+}
 
+/*header {
+    position: fixed;
+    top: 0px;
+    max-height: 70px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 26px;
+    background: none;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 6px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}*/
