@@ -6,26 +6,29 @@
   height: 44px;
   width: 132px;
   border-radius: 4px;
-  top: 100px;
-  left: 400px;
-  background: none;
   color: #e4edfd;
   border: 1px solid rgba(228,237,253,0.55);
   cursor: pointer;
   font-family: 'Open Sans',sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-/*#message {
-  height: 44px;
-  width: 132px;
-  border-radius: 4px;
-  top: 100px;
-  left: 400px;
-  background: none;
-  color: #e4edfd;
-  border: 1px solid rgba(228,237,253,0.55);
-  cursor: pointer;
-  font-family: 'Open Sans',sans-serif;
+#button {
+  margin-left: 17%;
+  margin-top: 10%;
+}
 
-}*/
+#liked {
+  background: none;
+}
+
+#message {
+  background-color: #3260c7;
+}
+
+#star {
+  height: 14px;
+  width: 14px;
+  /*margin-left: 9%;*/
+  /*margin-top: 5%;*/
+}

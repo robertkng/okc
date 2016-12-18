@@ -5,7 +5,6 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-    <div id="main">
 
         <div id="header">
 
@@ -18,17 +17,14 @@ class Header extends Component {
           <h2> Manhattan, NY <span id="dot">•</span> <span id="match">100% Match</span></h2>
           </div>
 
-          <div class="button">
-          <button id="liked">Liked</button>
-          </div>
-
-          <div class="button" >
+          <div id="button">
+          <button id="liked"> ⭐  Liked</button>
           <button id="message">Message</button>
+
           </div>
 
         </div>
 
-    </div>
     )
   }
 }
