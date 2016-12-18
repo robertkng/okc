@@ -18,6 +18,16 @@ export default class App extends Component {
           <div id="block">
           </div>
 
+          <Summary
+          />
+
+          <Links
+          />
+
+          <Two
+          />
+
+
       </div>
     );
   }
