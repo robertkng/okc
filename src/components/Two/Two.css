@@ -1,9 +1,12 @@
+.two-summary {
+  margin-left: 7%;
+}
+
 h3 {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #474d59;
   font-weight: 600;
   font-size: 18px;
-  margin-left: 7%;
 }
 
 .two-icons {
@@ -11,4 +14,38 @@ h3 {
   width: 164px;
   border-radius: 4px;
   margin-left: .75%;
+}
+
+#two {
+  margin-left: -6%;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #474d59;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hundred {
+}
+
+.horizontal {
+  color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+#htmlcss-hundred {
+  margin-left: -45%;
+  margin-top: 16.5%;
+}
+
+#javascript-hundred {
+  margin-left: 12%;
+  margin-top: 16.5%;
+}
+
+#react-hundred {
+  margin-left: 12%;
+  margin-top: 16.5%;
 }
