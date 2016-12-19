@@ -5,11 +5,19 @@
 }
 
 h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 43%;
+  margin-top: -1%;
+}
+
+h5 {
   font-weight: 600;
   font-size: 18px;
   display: flex;
   text-align: left;
-  /*background-color: rgb(242, 242, 242);*/
+  margin-left: 14%;
+  margin-top: 7%;
 }
 
 span {
@@ -27,5 +35,30 @@ span {
   width: 30px;
   display: flex;
   flex-direction: column;
-  margin-top: 3%;
+  margin-top: 8%;
+  margin-left: 26%;
+}
+
+hr {
+  border: 1px solid #f8c637;
+  margin-top: 10%;
+  margin-left: 24%;
+  margin-right: -18%;
+  margin-bottom: 10%;
+}
+
+#tech-skills {
+  margin-top: 0%;
+  margin-left: 11%;
+  margin-right: -18%;
+  width: 250%;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 14%;
+  margin-top: 0%;
+  margin-right: -39%;
+  width: 113%;
 }
