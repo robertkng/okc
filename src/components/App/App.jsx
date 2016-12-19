@@ -43,7 +43,14 @@ export default class App extends Component {
             summary={this.state.summary}
             getSummary={this.getSummary.bind(this)}
           />
+
+          <Links
+          />
         </div>
+
+        <div className="app-links">
+        </div>
+
 
         </div>
 
@@ -53,10 +60,8 @@ export default class App extends Component {
 }
 // <span>Perfect Match</span>
 // Perfect Match
-//  Looks like you two will get along
+//  Looks like you found your perfect match.
 
-//           <Links
-          // />
 
           // <Two
           // />

@@ -1,0 +1,31 @@
+.links-summary {
+  background-color: rgb(249, 250, 252);
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #474d59;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  /*background-color: rgb(242, 242, 242);*/
+}
+
+span {
+  font-weight: 300;
+}
+
+.links-summary {
+  margin-top: 2%;
+  margin-right: 5%;
+  width: 30%;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}

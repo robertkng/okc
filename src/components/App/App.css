@@ -66,9 +66,9 @@ h2 {
 
 #block {
   width: 110%;
-  height: 62px;
+  height: 56px;
   background-color: #5e6573;
-  opacity: .075;
+  opacity: .025;
   margin-top: 189px;
   z-index: -100;
 }
@@ -81,6 +81,10 @@ h2 {
     border-radius: 100%;
 }
 
+.app-summary {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
