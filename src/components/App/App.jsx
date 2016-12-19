@@ -46,11 +46,11 @@ export default class App extends Component {
 
           <Links
           />
+
         </div>
 
-        <div className="app-links">
-        </div>
-
+          <Two
+          />
 
         </div>
 
@@ -63,5 +63,5 @@ export default class App extends Component {
 //  Looks like you found your perfect match.
 
 
-          // <Two
-          // />
+        // <div className="app-links">
+        // </div>
