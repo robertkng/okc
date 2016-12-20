@@ -28,16 +28,17 @@ h1, h2 {
 
 h1 {
   font-size: 34px;
-  margin-left: 15%;
+  margin-left: 55%;
   margin-top: 32%;
 }
 
 h2 {
   display: block;
   font-size: 18px;
-  margin-left: 14%;
-  margin-top: -6%;
+  margin-left: 55%;
+  margin-top: -7%;
   color: #e4edfd;
+  width: 250px;
 }
 
 #dot {
@@ -61,7 +62,7 @@ h2 {
   width: 180px;
   padding: 30px;
   margin-top: 4%;
-  margin-left: 23%;
+  margin-left: 72%;
 }
 
 #block {

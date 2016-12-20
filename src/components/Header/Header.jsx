@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
+import ReactTooltip from 'react-tooltip'
 import './Header.css';
 
-// render input fields and run the search function when clicking the button
+// const tooltip = (
+//   <Tooltip id="tooltip"><strong>Perfect Match</strong> Looks like you two will get along.</Tooltip>
+// );
+
+// const positionerInstance = (
+//   <ButtonToolbar>
+
+//     <OverlayTrigger placement="bottom" overlay={tooltip}>
+//       <Button bsStyle="default">100% Match</Button>
+//     </OverlayTrigger>
+
+//   </ButtonToolbar>
+// );
+
+
+
+
 class Header extends Component {
   render() {
     return (
@@ -14,7 +31,13 @@ class Header extends Component {
 
           <div id="top">
           <h1> robert_ng </h1>
-          <h2> Manhattan, NY <span id="dot">•</span> <span id="match">100% Match</span></h2>
+          <h2> Manhattan, NY <span id="dot">•</span> <span data-tip id="match">100% Match</span></h2>
+            <ReactTooltip id='match' type='light' effect='solid'>
+              <p>Look no further, you have found the perfect candidate.</p>
+            </ReactTooltip>
+          </div>
+
+          <div id="tooltip">
           </div>
 
           <div id="button">

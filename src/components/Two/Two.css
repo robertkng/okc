@@ -17,7 +17,7 @@ h3 {
 }
 
 #two {
-  margin-left: -6%;
+  margin-left: -23%;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #474d59;
   font-weight: 600;
@@ -33,19 +33,20 @@ h3 {
   background: transparent;
   display: flex;
   flex-direction: row;
+  margin-left: 131px;
 }
 
 #htmlcss-hundred {
-  margin-left: -45%;
-  margin-top: 16.5%;
+  margin-left: -40%;
+  margin-top: 14.5%;
 }
 
 #javascript-hundred {
   margin-left: 12%;
-  margin-top: 16.5%;
+  margin-top: 14.5%;
 }
 
 #react-hundred {
-  margin-left: 12%;
-  margin-top: 16.5%;
+  margin-left: 10%;
+  margin-top: 14.5%;
 }
