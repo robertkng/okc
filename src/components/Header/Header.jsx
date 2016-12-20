@@ -31,9 +31,12 @@ class Header extends Component {
 
           <div id="top">
           <h1> robert_ng </h1>
-          <h2> Manhattan, NY <span id="dot">•</span> <span data-tip data-for="match" id="match">100% Match</span></h2>
-            <ReactTooltip id='match' type='light' effect='solid'>
-              <p>Perfect Match. Look no further, you have found your new employee.</p>
+          <h2> Manhattan, NY <span id="dot">•</span> <span data-tip data-for="tooltip-match" id="match">100% Match</span></h2>
+            <ReactTooltip id="tooltip-match" place="bottom" type="light" effect="solid">
+              <ul id="perfect-match">
+                <li>Perfect Match</li>
+                <li>Look no further, you have found your new developer.</li>
+              </ul>
             </ReactTooltip>
           </div>
 

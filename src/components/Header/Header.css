@@ -31,6 +31,19 @@ p {
   font-size: 20px;
 }
 
+#perfect-match li {
+  line-height: 150%;
+  height: 50px;
+  width: 200px;
+  margin-left: -10%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 17px;
+}
+
+#tooltip-match {
+  margin-left: -20%;
+}
+
 /*transition: all 110ms ease;*/
 
 
