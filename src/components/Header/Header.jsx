@@ -2,23 +2,6 @@ import React, { Component } from 'react';
 import ReactTooltip from 'react-tooltip';
 import './Header.css';
 
-// const tooltip = (
-//   <Tooltip id="tooltip"><strong>Perfect Match</strong> Looks like you two will get along.</Tooltip>
-// );
-
-// const positionerInstance = (
-//   <ButtonToolbar>
-
-//     <OverlayTrigger placement="bottom" overlay={tooltip}>
-//       <Button bsStyle="default">100% Match</Button>
-//     </OverlayTrigger>
-
-//   </ButtonToolbar>
-// );
-
-
-
-
 class Header extends Component {
   render() {
     return (
@@ -54,6 +37,5 @@ class Header extends Component {
     )
   }
 }
-
 
 export default Header;
