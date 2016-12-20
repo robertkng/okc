@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactTooltip from 'react-tooltip'
+import ReactTooltip from 'react-tooltip';
 import './Header.css';
 
 // const tooltip = (
@@ -31,9 +31,9 @@ class Header extends Component {
 
           <div id="top">
           <h1> robert_ng </h1>
-          <h2> Manhattan, NY <span id="dot">•</span> <span data-tip id="match">100% Match</span></h2>
+          <h2> Manhattan, NY <span id="dot">•</span> <span data-tip data-for="match" id="match">100% Match</span></h2>
             <ReactTooltip id='match' type='light' effect='solid'>
-              <p>Look no further, you have found the perfect candidate.</p>
+              <p>Perfect Match. Look no further, you have found your new employee.</p>
             </ReactTooltip>
           </div>
 
