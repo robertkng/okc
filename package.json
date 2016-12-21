@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/gittheking/react_template#readme",
   "dependencies": {
+    "aos": "^2.1.1",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "dotenv": "^2.0.0",
@@ -41,8 +42,12 @@
     "path": "^0.12.7",
     "pg-promise": "^5.2.7",
     "react-hover": "^0.6.2",
+    "react-spark-scroll-gsap": "^2.0.2",
     "react-tooltip": "^3.2.2",
     "tooltip": "^1.6.1"
+  },
+  "peerDependencies": {
+    "react": "0.14.x"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -63,11 +68,22 @@
     "html-webpack-plugin": "^2.22.0",
     "html-webpack-template": "^5.0.0",
     "postcss-loader": "^1.1.1",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "react": "0.14.x",
+    "react-dom": "0.14.x",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "webpack-dotenv-plugin": "^1.4.0"
-  }
+  },
+  "tags": [
+    "react",
+    "scroll"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "scroll",
+    "scrolling",
+    "animation"
+  ]
 }

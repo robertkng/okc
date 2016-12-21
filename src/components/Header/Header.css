@@ -38,6 +38,7 @@ p {
   margin-left: -10%;
   font-family: 'Open Sans',sans-serif;
   font-size: 17px;
+  text-align: center;
 }
 
 #tooltip-match {

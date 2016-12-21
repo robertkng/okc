@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Slider from '../Slider/Slider.jsx';
 import Header from '../Header/Header.jsx';
 import Summary from '../Summary/Summary.jsx';
 import Links from '../Links/Links.jsx';
@@ -11,9 +12,7 @@ export default class App extends Component {
     super();
 
     this.state = {
-
     summary: [],
-
     };
   }
 
@@ -28,19 +27,18 @@ export default class App extends Component {
     .catch(err => console.log(err));
   }
 
-
-
   render() {
     return (
 
       <div id="container">
 
-          <Header
+          <Slider
           />
 
+          <Header
+          />
           <div id="block">
           </div>
-
         <div id="bio">
 
         <div className="app-summary">
@@ -48,15 +46,11 @@ export default class App extends Component {
             summary={this.state.summary}
             getSummary={this.getSummary.bind(this)}
           />
-
           <Links
           />
-
         </div>
-
           <Two
           />
-
         </div>
 
       </div>
