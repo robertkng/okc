@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+import SlidingHeader from '../../utils/toggle-slide.js';
 import './Slider.css';
 
 class Slider extends Component {
 
-
-
+// componentDidMount()
 
   render() {
 
     return (
-      <div className="summary-summary">
+      <div id="slider>">
 
       </div>
+
     )
   };
 }

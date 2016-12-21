@@ -13,6 +13,8 @@ module.exports = {
   output: {
     path: BUILD_DIR,
     filename: '/js/[name].js',
+    library: 'ReactSparkScroll',
+    libraryTarget: 'umd'
   },
   cache: true,
   debug: true,

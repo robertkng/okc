@@ -54,3 +54,7 @@ header {
     font-family: "Montserrat", sans-serif;
     color: black;
 }
+
+.scrolled {
+    transform: translateY(-100%);
+}
