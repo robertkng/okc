@@ -38,7 +38,7 @@ header {
 
 
 #slider {
-    position: fixed;
+/*    position: fixed;
     top: 0px;
     max-height: 70px;
     z-index: 999;
@@ -52,9 +52,11 @@ header {
     top: -100px;
     padding-bottom: 6px;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: black;*/
+
 }
 
 .scrolled {
     transform: translateY(-100%);
 }
+

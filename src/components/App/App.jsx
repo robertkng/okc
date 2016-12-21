@@ -32,6 +32,7 @@ export default class App extends Component {
 
       <div id="container">
 
+
           <Slider
           />
 

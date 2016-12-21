@@ -5,8 +5,11 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-
         <div id="header">
+
+      <div id="slider">
+
+      </div>
 
           <div id="image">
           <img src={require('./profile.jpg')} id="profile"/>

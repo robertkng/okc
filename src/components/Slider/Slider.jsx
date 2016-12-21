@@ -9,7 +9,7 @@ class Slider extends Component {
   render() {
 
     return (
-      <div id="slider>">
+      <div id="slider">
 
       </div>
 
