@@ -27,7 +27,7 @@ class Summary extends Component {
     });
   }
 
- messageMe(summary) {
+  messageMe(summary) {
     return summary.map((render, index) => {
       return (
         <ul key={index} className="results-message">
@@ -43,18 +43,18 @@ class Summary extends Component {
     return (
       <div className="summary-summary">
 
-      <h3>My self-summary</h3>
-      {this.selfSummary(summary)}
+        <h3>My self-summary</h3>
+        {this.selfSummary(summary)}
 
-      <h3>I’m really good at</h3>
-      {this.goodAt(summary)}
+        <h3>I’m really good at</h3>
+        {this.goodAt(summary)}
 
-      <h3>You should message me if</h3>
-      {this.messageMe(summary)}
+        <h3>You should message me if</h3>
+        {this.messageMe(summary)}
 
       </div>
-    )
-  };
+    );
+  }
 }
 
 export default Summary;

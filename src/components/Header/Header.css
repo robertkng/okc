@@ -45,20 +45,23 @@ p {
   margin-left: -20%;
 }
 
-#slider {
-    position: fixed;
-    background-color: #104da1;
-    width: 110%;
-    padding-top: 26px;
-    overflow: hidden;
-    margin-top: -1%;
-    padding-bottom: 3px;
-    font-family: "Montserrat", sans-serif;
-    color: black;
-    padding-right: 1%;
-    margin-left: -1%;
-    z-index: 999;
-    top: -80px;
+.slider {
+  position: fixed;
+  background-color: #104da1;
+  width: 110%;
+  top: -80px;
+  transition: top .4s;
+  z-index: 999;
+}
+
+.hide-slider {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 26px;
+  margin-top: -1%;
+  padding-bottom: 3px;
+  padding-right: 1%;
+  margin-left: -1%;
+  top: 6px;
 }
 
 #slider-image {

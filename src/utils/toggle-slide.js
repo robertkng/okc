@@ -1,14 +1,26 @@
+/**
+ * Add below given css to components container
+ *
+ * .edit-search {
+   position: relative; // fixed/absolute
+   top: 0;
+   @include prefix(transition, top .4s);
+
+   &.hide-edit {
+     top: -90px;
+   }
+ */
 import classie from 'desandro-classie';
 
 function SlidingHeader(options) {
   this.init(options);
 }
 
-SlidingHeader.prototype.init = function(options) {
+SlidingHeader.prototype.init = function b(options) {
   // Define the settings as an object
-  let settings = {
-    'element': options.element,
-    'class': 'to_scroll'
+  const settings = {
+    element: options.element,
+    class: 'to_scroll',
   };
 
   // If the target element has a specific class declared in the object passed,
@@ -21,46 +33,44 @@ SlidingHeader.prototype.init = function(options) {
   }
 
   // Get the target element from the DOM
-  let elementToSlide = document.querySelector(settings.element);
+  const elementToSlide = document.querySelector(settings.element);
 
   // If there's a valid element, slide it. If not, just return false
   if (elementToSlide !== null) {
-    let elementSettings = {
-      'elementHeight': elementToSlide.clientHeight,
-      'class': settings.class
+    const elementSettings = {
+      elementHeight: elementToSlide.clientHeight,
+      class: settings.class,
     };
 
     this.slide(elementToSlide, elementSettings);
-  } else {
-    return false;
   }
 };
 
-SlidingHeader.prototype.slide = function(element, elementSettings) {
+SlidingHeader.prototype.slide = function a(element, elementSettings) {
+  let offset = 0;
+  let lastPosition = 0;
+  const targetClass = elementSettings.class;
+  const elementHeight = elementSettings.elementHeight;
 
-  let offset = 0,
-    lastPosition = 0,
-    targetClass = elementSettings.class,
-    elementHeight = elementSettings.elementHeight;
+  window.addEventListener('scroll', function c() {
+    const newPosition = this.scrollY;
+    const position = newPosition - lastPosition;
 
-  window.addEventListener('scroll', function(e) {
-
-    let newPosition = this.scrollY,
-      position = newPosition - lastPosition;
+    console.log(newPosition);
 
     // If we scrolled more than the element's height, then add the class to it.
     // Else, remove it, and the element will show up again
     if (offset + position > elementHeight) {
       offset = elementHeight;
 
-      if (!classie.has( element, targetClass)) {
-        classie.add( element, targetClass);
+      if (!classie.has(element, targetClass)) {
+        classie.add(element, targetClass);
       }
     } else {
-      offset = offset + position;
+      offset += position;
 
-      if (classie.has( element, targetClass)) {
-        classie.remove( element, targetClass);
+      if (classie.has(element, targetClass)) {
+        classie.remove(element, targetClass);
       }
     }
 

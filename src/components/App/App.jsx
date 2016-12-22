@@ -26,30 +26,14 @@ export default class App extends Component {
     .catch(err => console.log(err));
   }
 
-  sliderHeader() {
-    // const ScrollTop = ($(window).scrollTop());
-    // if (ScrollTop > 0) {
-    //   document.getElementById('slider').style.top + 80 + 'px';
-    // }
-
-    const scrollY = window.scrollY;
-    const sliderOffSet = document.getElementById('slider').offsetTop;
-    if (scrollY > -1000) {
-    console.log(scrollY);
-      sliderOffSet + 200 + 'px';
-    console.log(sliderOffSet);
-    }
-  }
-
   render() {
     return (
 
       <div id="container">
 
-        <Header
-          slider={this.sliderHeader.bind(this)}
-        />
-        <div id="block"></div>
+        <Header />
+        <div id="block">
+        </div>
         <div id="bio">
 
           <div className="app-summary">
@@ -66,4 +50,3 @@ export default class App extends Component {
     );
   }
 }
-
