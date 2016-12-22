@@ -8,11 +8,14 @@ class Header extends Component {
         <div id="header">
 
       <div id="slider">
-
+        <img src={require('./profile.jpg')} id="slider-image"/>
+        <h7 id="slider-name"> robert_ng <span id="slider-dot">• 100% Match </span> </h7>
+          <button id="slider-liked"> ⭐  Liked</button>
+          <button id="slider-message">Message</button>
       </div>
 
           <div id="image">
-          <img src={require('./profile.jpg')} id="profile"/>
+            <img src={require('./profile.jpg')} id="profile"/>
           </div>
 
           <div id="top">

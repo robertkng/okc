@@ -14,7 +14,7 @@
 }
 
 #button {
-  margin-left: 22%;
+  margin-left: 21.5%;
   margin-top: 8%;
 }
 
@@ -58,9 +58,9 @@ p {
 
 #slider {
 
-    height: 10%;
+    /*height: 10%;*/
     position: fixed;
-    top: 0px;
+    top: 4px;
     background-color: #104da1;
     /*max-height: 70px;*/
     z-index: 999;
@@ -76,4 +76,50 @@ p {
     /*top: -100px;*/
     /*opacity: 0;*/
     /*background: none;*/
+}
+
+#slider-image {
+  height: 46px;
+  width: 46px;
+  border-radius: 100%;
+  margin-left: 15%;
+  margin-top: -1%;
+}
+
+#slider-name {
+  color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  margin-top: -3%;
+  margin-left: 1%;
+  font-size: 17px;
+  padding-bottom: 1%;
+}
+
+#slider-dot {
+  color: #e4edfd;
+  margin-top: -3%;
+  margin-left: 0%;
+  font-size: 16px;
+}
+
+#slider-liked, #slider-message {
+  height: 44px;
+  width: 132px;
+  border-radius: 4px;
+  color: #e4edfd;
+  border: 1px solid rgba(228,237,253,0.55);
+  cursor: pointer;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 17px;
+  margin-top: 0%;
+}
+
+#slider-liked {
+  background: none;
+  margin-left: 24.5%;
+}
+
+#slider-message {
+  background-color: #3260c7;
 }
