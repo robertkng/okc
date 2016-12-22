@@ -11,7 +11,7 @@ export default class App extends Component {
     super();
 
     this.state = {
-    summary: [],
+      summary: [],
     };
   }
 
@@ -20,10 +20,25 @@ export default class App extends Component {
     .then(r => r.json())
     .then((results) => {
       this.setState({
-        summary: results.data
+        summary: results.data,
       });
     })
     .catch(err => console.log(err));
+  }
+
+  sliderHeader() {
+    // const ScrollTop = ($(window).scrollTop());
+    // if (ScrollTop > 0) {
+    //   document.getElementById('slider').style.top + 80 + 'px';
+    // }
+
+    const scrollY = window.scrollY;
+    const sliderOffSet = document.getElementById('slider').offsetTop;
+    if (scrollY > -1000) {
+    console.log(scrollY);
+      sliderOffSet + 200 + 'px';
+    console.log(sliderOffSet);
+    }
   }
 
   render() {
@@ -31,22 +46,20 @@ export default class App extends Component {
 
       <div id="container">
 
-          <Header
-          />
-          <div id="block">
-          </div>
+        <Header
+          slider={this.sliderHeader.bind(this)}
+        />
+        <div id="block"></div>
         <div id="bio">
 
-        <div className="app-summary">
-          <Summary
-            summary={this.state.summary}
-            getSummary={this.getSummary.bind(this)}
-          />
-          <Links
-          />
-        </div>
-          <Two
-          />
+          <div className="app-summary">
+            <Summary
+              summary={this.state.summary}
+              getSummary={this.getSummary.bind(this)}
+            />
+            <Links />
+          </div>
+          <Two />
         </div>
 
       </div>
