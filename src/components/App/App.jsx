@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Slider from '../Slider/Slider.jsx';
 import Header from '../Header/Header.jsx';
 import Summary from '../Summary/Summary.jsx';
 import Links from '../Links/Links.jsx';
@@ -31,10 +30,6 @@ export default class App extends Component {
     return (
 
       <div id="container">
-
-
-          <Slider
-          />
 
           <Header
           />

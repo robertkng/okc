@@ -45,44 +45,28 @@ p {
   margin-left: -20%;
 }
 
-/*transition: all 110ms ease;*/
-
-
-/*position: relative;
-    padding: 13px 0;
-    width: 1000px;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-left: auto;
-    margin-right: auto;*/
-
 #slider {
-
-    /*height: 10%;*/
     position: fixed;
-    top: 4px;
+    top: -80px;
     background-color: #104da1;
-    /*max-height: 70px;*/
-    z-index: 999;
     width: 110%;
     padding-top: 26px;
     overflow: hidden;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    padding-bottom: 6px;
+    /*-webkit-transition: all 0.3s;*/
+    /*transition: all 0.3s;*/
+    padding-bottom: 3px;
     font-family: "Montserrat", sans-serif;
     color: black;
-
-    /*top: -100px;*/
-    /*opacity: 0;*/
-    /*background: none;*/
+    padding-right: 1%;
+    margin-left: -1%;
+    z-index: 999;
 }
 
 #slider-image {
   height: 46px;
   width: 46px;
   border-radius: 100%;
-  margin-left: 15%;
+  margin-left: 16%;
   margin-top: -1%;
 }
 
@@ -123,3 +107,5 @@ p {
 #slider-message {
   background-color: #3260c7;
 }
+
+    /*top: 0px*/
