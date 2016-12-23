@@ -40,11 +40,7 @@
     "passport-jwt": "^2.2.1",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
-    "pg-promise": "^5.2.7",
-    "react-hover": "^0.6.2",
-    "react-spark-scroll-gsap": "^2.0.2",
-    "react-tooltip": "^3.2.2",
-    "tooltip": "^1.6.1"
+    "pg-promise": "^5.2.7"
   },
   "peerDependencies": {
     "react": "0.14.x"
@@ -70,7 +66,11 @@
     "postcss-loader": "^1.1.1",
     "react": "^0.14.8",
     "react-dom": "0.14.x",
+    "react-hover": "^0.6.2",
+    "react-spark-scroll-gsap": "^2.0.2",
+    "react-tooltip": "^3.2.2",
     "style-loader": "^0.13.1",
+    "tooltip": "^1.6.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "webpack-dotenv-plugin": "^1.4.0"
