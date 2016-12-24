@@ -5,7 +5,6 @@ import Links from '../Links/Links.jsx';
 import Two from '../Two/Two.jsx';
 import './App.css';
 
-
 export default class App extends Component {
   constructor() {
     super();
