@@ -1,5 +1,5 @@
 .two-summary {
-  margin-left: 7%;
+  margin-left: 3%;
 }
 
 h3 {
@@ -10,8 +10,8 @@ h3 {
 }
 
 .two-icons {
-  height: 215px;
-  width: 164px;
+  height: 200px;
+  width: 146px;
   border-radius: 4px;
   margin-left: .75%;
 }
@@ -37,16 +37,16 @@ h3 {
 }
 
 #htmlcss-hundred {
-  margin-left: -40%;
+  margin-left: -38%;
   margin-top: 14.5%;
 }
 
 #javascript-hundred {
-  margin-left: 12%;
+  margin-left: 9%;
   margin-top: 14.5%;
 }
 
 #react-hundred {
-  margin-left: 10%;
+  margin-left: 9%;
   margin-top: 14.5%;
 }

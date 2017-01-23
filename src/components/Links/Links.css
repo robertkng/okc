@@ -12,7 +12,7 @@ h4 {
 }
 
 h5 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   display: flex;
   text-align: left;
@@ -22,7 +22,7 @@ h5 {
 
 .links-summary {
   margin-top: 2%;
-  margin-right: 5%;
+  margin-right: 16%;
   width: 30%;
 }
 
@@ -32,7 +32,7 @@ h5 {
   display: flex;
   flex-direction: column;
   margin-top: 8%;
-  margin-left: 26%;
+  margin-left: 15%;
 }
 
 hr {
@@ -46,12 +46,14 @@ hr {
 #tech-skills {
   margin-top: 0%;
   margin-left: 11%;
-  margin-right: -18%;
+  margin-right: 9%;
   width: 250%;
+  font-size: 16px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 h6 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   margin-left: 14%;
   margin-top: 0%;
