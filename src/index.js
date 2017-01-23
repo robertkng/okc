@@ -7,10 +7,6 @@ import './index.css';
 ReactDOM.render(
   <App />,
   document.querySelector('#root-container')
-
-
-
-
 );
 
 

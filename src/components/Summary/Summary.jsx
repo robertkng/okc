@@ -11,7 +11,7 @@ class Summary extends Component {
     return summary.map((render, index) => {
       return (
         <ul key={index} className="results-summary">
-          <li>{render.self_summary}, </li>
+          <li>{render.self_summary} </li>
         </ul>
       );
     });

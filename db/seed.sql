@@ -1,6 +1,6 @@
 BEGIN;
 
 INSERT INTO bio (self_summary, good_at, message_me) VALUES
-('I am a Junior JavaScript Developer with a focus on the NERD (Node, Express, React, Database) stack who wants to work on products that I am passionate about. My last few projects were with React and I truly love this library due to how seamless the components render onto a page without having to reload entirely. I am interested in working for OkCupid as I have been an avid user for years and love the product.', 'My strongest language is HTML and CSS. As an added bonus: I have been told that I am quite fun to be around. Just saying.', 'If you enjoyed my mock up of this OkCupid user profile in React and want to know more about me as a developer.');
+('I am a Front End Developer who wants to work on products that I am passionate about. I have experience collaborating with UX designers to build out front end interfaces using photoshop documents. I have developed multiple full stack applications utilizing databases and servers. I have a passion for learning new libraries, frameworks, technologies, and hackathons.', 'JavaScript, HTML5, CSS3, React, and Node', 'If you enjoyed my mock up of this OkCupid user profile in React and want to know more about me as a developer.');
 
 COMMIT;

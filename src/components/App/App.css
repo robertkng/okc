@@ -1,17 +1,19 @@
 html {
   background-color: #fafafa;
+  margin-left: 8%;
 }
 
 #header {
   background-color: #104da1;
   height: 120px;
   top: 0%;
-  left: -1px;
+  left: -71px;
   height: 181px;
-  width: 100%;
+  width: 150%;
   margin: 0;
   position: absolute;
   display: flex;
+  margin-left: 8%;
 }
 
 #top {
@@ -27,14 +29,14 @@ h1, h2 {
 
 h1 {
   font-size: 34px;
-  margin-left: 55%;
+  margin-left: 73%;
   margin-top: 32%;
 }
 
 h2 {
   display: block;
   font-size: 18px;
-  margin-left: 55%;
+  margin-left: 72%;
   margin-top: -7%;
   color: #e4edfd;
   width: 250px;
@@ -61,16 +63,17 @@ h2 {
   width: 180px;
   padding: 30px;
   margin-top: 4%;
-  margin-left: 72%;
+  margin-left: 97%;
 }
 
 #block {
-  width: 110%;
+  width: 150%;
   height: 56px;
   background-color: #5e6573;
   opacity: .025;
-  margin-top: 189px;
+  margin-top: 183px;
   z-index: -100;
+  margin-left: -8%;
 }
 
 #round-icon {

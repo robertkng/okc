@@ -5,23 +5,19 @@
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 43%;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 30%;
   margin-top: -1%;
 }
 
 h5 {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 18px;
   display: flex;
   text-align: left;
   margin-left: 14%;
   margin-top: 7%;
-}
-
-span {
-  font-weight: 300;
 }
 
 .links-summary {
@@ -42,8 +38,8 @@ span {
 hr {
   border: 1px solid #f8c637;
   margin-top: 10%;
-  margin-left: 24%;
-  margin-right: -18%;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-bottom: 10%;
 }
 
@@ -55,7 +51,7 @@ hr {
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 18px;
   margin-left: 14%;
   margin-top: 0%;
